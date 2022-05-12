@@ -1,5 +1,8 @@
 @charset "utf-8";
 
 p {
-  color: brown;  
-}
+    color: brown;
+    font-size: 100px;
+    font-family: fantasy;
+    background-color: bisque;
+    }
