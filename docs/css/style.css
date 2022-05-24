@@ -4,7 +4,7 @@ h1 {
     font-size: 24px;
     margin: 0;
     /* ex↑）数字が0の時は単位（pxなど）を省略できるらしい */        
- }
+}
  p {
      font-size: 14px;
- }
+}
