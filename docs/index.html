@@ -1,18 +1,27 @@
-<!DOCTYPE html>
- <html>
-     <head>
-         <meta charset="UTF-8">
-         <meta name="viewport" content="width=device-width">
-         <title>(練習)</title>
-         <link href="http://unpkg.com/sanitize.css" rel="stylesheet"/>
-         <link rel="stylesheet" href="css/style.css">
-     </head>
-     <body>
-         <h1>（練習）送信フォーム</h1>
-         <p>（練習）次のフォームに必要事項をご入力ください</p>
-         <p>（練習）メアドとか: <input type="email" name="mymail" placeholder="pochi@example.com"></p>
-         <p>（練習）パスワードとか: <input type="password" name="passcode"></p>
-         <p><button type="submit">（練習）送信する</button></p>
-     </body>
- </html>
-         
+ 
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ランダムゆるふわストレッチ</title>
+</head>
+<body>
+    <input id="yurustretch_btn" type="button" value="ゆるくストレッチしてみる">
+        <script>
+        document.getElementById("yurustretch_btn").onclick = function() {
+            var rnd = Math.floor( Math.random() * 9 );
+            var yurustretch;
+            if (rnd === 0) omikuji = "屈伸５回 ※気が向いたら無理のない範囲で好きなだけやればよい";
+            if (rnd === 1) omikuji = "アキレス腱伸ばし左右１０秒ずつ ※気が向いたら無理のない範囲で好きなだけやればよい";
+            if (rnd === 2) omikuji = "サイドプランク左右１０秒ずつ ※気が向いたら無理のない範囲で好きなだけやればよい";
+            if (rnd === 3) omikuji = "壁開脚１５秒 ※気が向いたら無理のない範囲で好きなだけやればよい";
+            if (rnd === 4) omikuji = "両手を上に伸ばして手を組み、左右１０秒ずつ伸ばす ※気が向いたら無理のない範囲で好きなだけやればよい";
+            if (rnd === 5) omikuji = "腰を左右に５秒ずつ捻る ※気が向いたら無理のない範囲で好きなだけやればよい";
+            if (rnd === 6) omikuji = "胸を開き肩甲骨を５秒寄せる ※気が向いたら無理のない範囲で好きなだけやればよい";
+            if (rnd === 7) omikuji = "首を前後左右５秒ずつ傾ける ※左右に５秒ずつ捻る。気が向いたら無理のない範囲で好きなだけやればよい";
+            if (rnd === 8) omikuji = "両肩の上げ下げ５回 ※気が向いたら無理のない範囲で好きなだけやればよい";
+            alert(yurustretch);
+        }
+        </script>
+</body>
+</html>
