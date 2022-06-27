@@ -1,18 +1,27 @@
-<!DOCTYPE html>
- <html>
-     <head>
-         <meta charset="UTF-8">
-         <meta name="viewport" content="width=device-width">
-         <title>(練習)</title>
-         <link rel="stylesheet" href="css/sanitize.css">
-         <link rel="stylesheet" href="css/style.css">
-     </head>
-     <body>
-         <h1>（練習）送信フォーム</h1>
-         <p>（練習）次のフォームに必要事項をご入力ください</p>
-         <p>（練習）メアドとか: <input type="email" name="mymail" placeholder="pochi@example.com"></p>
-         <p>（練習）パスワードとか: <input type="password" name="passcode"></p>
-         <p><button type="submit">（練習）送信する</button></p>
-     </body>
- </html>
-         
+ 
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ゆるふわストレッチ</title>
+</head>
+<body>
+    <input id="yurustretch_btn" type="button" value="ゆるくストレッチしてみる">
+        <script>
+        document.getElementById("yurustretch_btn").onclick = function() {
+            var rnd = Math.floor( Math.random() * 9 );
+            var yurustretch;
+            if (rnd === 0) omikuji = "屈伸を５回";
+            if (rnd === 1) omikuji = "アキレス腱を左右10秒ずつ伸ばす";
+            if (rnd === 2) omikuji = "サイドプランク左右10秒ずつ";
+            if (rnd === 3) omikuji = "壁開脚15秒";
+            if (rnd === 4) omikuji = "両手を上に伸ばして手を組み、左右10秒ずつ伸ばす";
+            if (rnd === 5) omikuji = "腰を左右に５秒ずつ捻る";
+            if (rnd === 6) omikuji = "胸を開き肩甲骨を５秒寄せる";
+            if (rnd === 7) omikuji = "首を前後左右５秒ずつ傾ける";
+            if (rnd === 8) omikuji = "両肩の上げ下げ５回";
+            alert(yurustretch);
+        }
+        </script>
+</body>
+</html>
